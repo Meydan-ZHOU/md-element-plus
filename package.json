@@ -1,0 +1,34 @@
+{
+  "name": "@md-element-plus/workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"pnpm --filter @md-element-plus/play dev",
+    "docs:dev": "pnpm --filter @md-element-plus/docs dev",
+    "docs:build": "pnpm --filter @md-element-plus/docs build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  },
+  "dependencies": {
+    "@md-element-plus/hooks": "workspace:*",
+    "@md-element-plus/theme": "workspace:*",
+    "@md-element-plus/utils": "workspace:*",
+    "@types/lodash-es": "^4.17.12",
+    "lodash-es": "^4.17.21",
+    "md-element-plus": "workspace:*",
+    "vue": "^3.5.13"
+  }
+}

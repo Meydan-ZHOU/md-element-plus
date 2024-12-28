@@ -7,7 +7,7 @@
     "dev":"pnpm --filter @md-element-plus/play dev",
     "docs:dev": "pnpm --filter @md-element-plus/docs dev",
     "docs:build": "pnpm --filter @md-element-plus/docs build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "",

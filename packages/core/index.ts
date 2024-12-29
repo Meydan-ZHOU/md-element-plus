@@ -1,7 +1,7 @@
 /*
  * @Author: zhoumeidan
  * @Date: 2024-12-28 18:16:01
- * @LastEditTime: 2024-12-29 16:16:39
+ * @LastEditTime: 2024-12-29 17:50:42
  * @LastEditors: zhoumeidan
  * @Description: 
  */
@@ -10,6 +10,6 @@ import components from "./components";
 import "@md-element-plus/theme/index.css"
 
 const installer = makeInstall(components);
-export * from "@md-element-plus/components";
+export * from "../components";
 
 export default installer;

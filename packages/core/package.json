@@ -27,7 +27,8 @@
     "build-umd": "vite build --config ./build/vite.umd.config.ts",
     "build-es": "vite build --config ./build/vite.es.config.ts",
     "move-style": "move-file dist/es/index.css dist/index.css",
-    "clean":"rimraf dist"
+    "clean":"rimraf dist",
+    "release":"release-it"
   },
   "dependencies": {},
   "devDependencies": {

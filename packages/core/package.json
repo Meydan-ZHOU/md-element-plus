@@ -1,6 +1,6 @@
 {
   "name": "md-element-plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Components library by Vue3 + TS",
   "type": "module",
   "main": "./dist/umd/index.umd.cjs",
@@ -17,7 +17,9 @@
       "require": "./dist/"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "sideEffects": [
     "./dist/index.css"
   ],
@@ -27,12 +29,11 @@
     "build-umd": "vite build --config ./build/vite.umd.config.ts",
     "build-es": "vite build --config ./build/vite.es.config.ts",
     "move-style": "move-file dist/es/index.css dist/index.css",
-    "clean":"rimraf dist",
-    "release":"release-it"
+    "clean": "rimraf dist",
+    "release": "release-it"
   },
   "dependencies": {},
   "devDependencies": {
-    "@md-element-plus/components": "workspace:*"
   },
   "peerDependencies": {
     "vue": "^3.5.13"

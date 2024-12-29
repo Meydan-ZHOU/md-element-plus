@@ -1,7 +1,7 @@
 <!--
  * @Author: zhoumeidan
  * @Date: 2024-12-28 18:03:10
- * @LastEditTime: 2024-12-28 18:24:26
+ * @LastEditTime: 2024-12-29 17:44:07
  * @LastEditors: zhoumeidan
  * @Description: 
 -->
@@ -14,7 +14,12 @@ defineOptions({
 </script>
 
 <template>
-    <el-button v-bind="$attrs" v-on="$listeners">
+    <el-button class="md-button" v-bind="$attrs" v-on="$listeners">
         <slot></slot>
+        000
     </el-button>
 </template>
+
+<style lang="css">
+@import "./style.css";
+</style>

@@ -1,7 +1,7 @@
 /*
  * @Author: zhoumeidan
  * @Date: 2024-12-28 17:53:03
- * @LastEditTime: 2024-12-28 18:01:52
+ * @LastEditTime: 2024-12-29 16:15:37
  * @LastEditors: zhoumeidan
  * @Description:  插件安装
  */
